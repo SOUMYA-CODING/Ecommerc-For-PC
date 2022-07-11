@@ -6,3 +6,18 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Common Tags */
+a{
+    text-decoration: none;
+}
+
+
+/* Header Nav Bar */
+.header-section{
+    background-color: #111111;
+}
+
+.nav-item a{
+    color: #fff;
+}
