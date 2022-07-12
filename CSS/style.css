@@ -88,12 +88,7 @@ strike{
     color: #fff;
 }
 
-.carousel-indicators button{
-    color: red;
-}
-
 #homepage .carousel-indicators button{
-    background-color: red;
     width: 3rem;
     height: .3rem;
 }
@@ -193,4 +188,12 @@ strike{
 
 #footer .footer-links a:hover{
     text-decoration: underline;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: .5rem;
+    background-color: #000;
 }
