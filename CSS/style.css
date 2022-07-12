@@ -106,7 +106,7 @@ strike{
 #productpage{
     width: 100%;
     height: auto;
-    padding:  3rem 2rem;
+    padding: 3rem 2rem;
 }
 
 #productpage .card{
@@ -129,7 +129,7 @@ strike{
 #productpage-2{
     width: 100%;
     height: auto;
-    padding:  3rem 2rem;
+    padding: 1rem 2rem;
 }
 
 #productpage-2 .card{
@@ -168,41 +168,14 @@ strike{
 }
 
 /* Footer */
-#footer{
-    width: 100%;
-    height: auto;
-    background-color: #111;
-    color: #fff;
-    padding: 1rem 0;
+#Footer .nav .nav-item a{
+    color: grey;
 }
 
-#footer .col{
-    width: 200px;
+#Footer .nav .nav-item a:hover{
+    color: #111;
 }
 
-#footer .footer-links{
-    display: flex;
-    flex-direction: column;
-}
-
-#footer p{
-    font-size: 20px;
-}
-
-#footer .footer-links a{
-    text-decoration: none;
-    color: #fff;
-    padding: 2px 0;
-}
-
-#footer .footer-links a:hover{
-    text-decoration: underline;
-}
-
-.copyright{
-    width: 100%;
-    text-align: center;
-    margin-top: 1.5rem;
-    padding: .5rem;
-    background-color: #000;
+.list-unstyled i{
+    font-size: 1.5rem;
 }
