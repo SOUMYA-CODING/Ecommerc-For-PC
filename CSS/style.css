@@ -32,6 +32,15 @@ strike{
     color: #bdc3c7;
 }
 
+.dropdown-menu .dropdown-item{
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: #000;
+}
+
 /* Home Page */
 #homepage{
     width: 100%;
@@ -89,8 +98,8 @@ strike{
 }
 
 #homepage .carousel-indicators button{
-    width: 3rem;
-    height: .3rem;
+    width: 4rem;
+    height: .2rem;
 }
 
 /* Product Page */
