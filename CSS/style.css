@@ -111,12 +111,23 @@ strike{
 
 #productpage .card{
     margin: 1rem 0;
-    width: 15rem;
-    height: 20rem;
+    width: 13rem;
+    height: 14rem;
     border: none;
     border-radius: 0px;
     padding: 5px;
-    box-shadow: 0px 2px 5px;
+}
+
+#productpage .card img{
+    width: 130px;
+}
+
+#productpage .card .card-title{
+    font-size: 18px;
+}
+
+#productpage .card .card-text{
+    font-size: 1rem;
 }
 
 #productpage .card:hover{
@@ -178,4 +189,97 @@ strike{
 
 .list-unstyled i{
     font-size: 1.5rem;
+}
+
+/* Login Page */
+
+#loginpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 8px 0px #111;
+    padding: 2rem;
+}
+
+.login-box .form-control:focus{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+.login-box a{
+    text-decoration: none;
+}
+
+.login-box a:hover{
+    text-decoration: underline;
+}
+
+.login-box button{
+    width: 100%;
+    padding: .5rem;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.login-box button:hover{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+.login-box .reg-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.login-box .reg-part a{
+    width: 100%;
+    background-color: gray;
+    padding: .5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: .6rem;
+    border-radius: 5px;
+}
+
+.login-box .reg-part a:hover{
+    text-decoration: none;
+    box-shadow: 0px 0px 8px 0px gray;
+}
+
+#registrationpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registraion-box{
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 8px 0px #111;
+    padding: 2rem;
+}
+
+.registraion-box button{
+    width: 100%;
+    padding: .5rem;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.registraion-box button:hover{
+    box-shadow: 0px 0px 8px 0px royalblue;
 }
