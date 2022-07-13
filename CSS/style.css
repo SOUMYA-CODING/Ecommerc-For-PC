@@ -256,6 +256,8 @@ strike{
     box-shadow: 0px 0px 8px 0px gray;
 }
 
+/* Registration page */
+
 #registrationpage{
     width: 100%;
     height: 100vh;
@@ -271,6 +273,10 @@ strike{
     padding: 2rem;
 }
 
+.registraion-box .form-control:focus{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
 .registraion-box button{
     width: 100%;
     padding: .5rem;
@@ -281,5 +287,38 @@ strike{
 }
 
 .registraion-box button:hover{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+/* Password reset page */
+#passwordrestpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-reset-box{
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 8px 0px #111;
+    padding: 2rem;
+}
+
+.password-reset-box .form-control:focus{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+.password-reset-box button{
+    width: 100%;
+    padding: .5rem;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.password-reset-box button:hover{
     box-shadow: 0px 0px 8px 0px royalblue;
 }
