@@ -33,6 +33,7 @@
             <img src="../Assets/AppLogo.png" alt="">
             <div class="box mt-4">
                 <form action="" autocomplete="off">
+                    <div id="liveAlertPlaceholder"></div>
                     <h4 class="mb-3">Sign-in</h4>
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" id="floatingInputemail" placeholder="name@example.com"
@@ -45,7 +46,7 @@
                         <label for="floatingInputpassword">Password</label>
                     </div>
                     <a href="password_reset.html" class="d-flex mb-3 d-flex justify-content-end">Password Reset ?</a>
-                    <button type="submit">Continue</button>
+                    <button type="submit" id="liveAlertBtn">Continue</button>
                     <div class="reg-part">
                         <label>New to Pcstore ?</label>
                         <a href="registration.html">Create a new account</a>
@@ -64,7 +65,23 @@
         crossorigin="anonymous"></script>
 
     <!-- Script File Link -->
-    <script src="Scripts/script.js"></script>
+    <script>
+        var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+        var alertTrigger = document.getElementById('liveAlertBtn')
+
+        function alert(message, type) {
+            var wrapper = document.createElement('div')
+            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+            alertPlaceholder.append(wrapper)
+        }
+
+        if (alertTrigger) {
+            alertTrigger.addEventListener('click', function () {
+                alert('Nice, you triggered this alert message!', 'success')
+            })
+        }
+    </script>
 
     <!-- AOS Animations -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

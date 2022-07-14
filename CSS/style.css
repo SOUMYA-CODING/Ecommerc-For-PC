@@ -183,12 +183,23 @@ strike{
     color: grey;
 }
 
+.footer-container{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    padding-top: 1rem;
+}
+
 #Footer .nav .nav-item a:hover{
     color: #111;
 }
 
 .list-unstyled i{
     font-size: 1.5rem;
+}
+
+.icons-part ul li i{
+    color: #fff;
 }
 
 /* Login Page */
@@ -209,6 +220,10 @@ strike{
 }
 
 .login-box .form-control:focus{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+.login-box .form-control:hover{
     box-shadow: 0px 0px 8px 0px royalblue;
 }
 
@@ -277,6 +292,10 @@ strike{
     box-shadow: 0px 0px 8px 0px royalblue;
 }
 
+.registraion-box .form-control:hover{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
 .registraion-box button{
     width: 100%;
     padding: .5rem;
@@ -307,6 +326,10 @@ strike{
 }
 
 .password-reset-box .form-control:focus{
+    box-shadow: 0px 0px 8px 0px royalblue;
+}
+
+.password-reset-box .form-control:hover{
     box-shadow: 0px 0px 8px 0px royalblue;
 }
 
