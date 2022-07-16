@@ -145,7 +145,7 @@ strike{
 
 #productpage-2 .card{
     margin: 1rem 0;
-    width: 25rem;
+    width: 20rem;
     border: none;
     border-radius: 0px;
     padding: 5px;
@@ -160,7 +160,11 @@ strike{
 }
 
 #productpage-2 .card img{
-    width: 150px;
+    width: 90px;
+}
+
+#productpage-2 .card .card-text{
+    font-size: 12px;
 }
 
 #productpage-2 .productpage-btn{
