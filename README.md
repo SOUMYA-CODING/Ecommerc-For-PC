@@ -1,4 +1,4 @@
-# Ecommerc-For-PC
+# Ecommerc For PC
 
 A simple Ecommerc webiste for computers parts and pre-built PCs, 
 from this website you can buy computer parts, peripheral devices 
